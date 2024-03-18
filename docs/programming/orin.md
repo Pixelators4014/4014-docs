@@ -1,6 +1,6 @@
 # Orin Nano
 
-The [Orin Nano](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/) is a coprocessor that we use to get the robot's position and orientation, as well as object detection data. It is connected to the robot's main computer through a Networktable. In order to develop on the orin, you will need to ssh into it. There is an ngrok service (`/usr/local/bin/ngrok tcp 22`) and serveo service (`/usr/bin/ssh -R Alistairs-Autonomous-Astro-Artisan:22:localhost:22 serveo.net`) running on startup, which expose it's ssh to the internet with a tcp tunnel.
+The [Orin Nano](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/) is a coprocessor that we use to get the robot's position and orientation, as well as object detection data. It is connected to the robot's main computer through a Networktable. To develop on the Orin, you will need to ssh into it. There is an ngrok service (`/usr/local/bin/ngrok tcp 22`) and serveo service (`/usr/bin/ssh -R Alistairs-Autonomous-Astro-Artisan:22:localhost:22 serveo.net`) running on startup, which exposes its ssh to the internet with a TCP tunnel.
 
 ## SSH Into Orin
 
@@ -55,9 +55,9 @@ cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
 ```
 Then you need to install dependencies:
 ```bash
-sudo apt-get install -y ros-humble-isaac-ros-visual-slam \
-ros-humble-isaac-ros-yolov8 ros-humble-isaac-ros-tensor-rt ros-humble-isaac-ros-dnn-image-encoder \
-ros-humble-isaac-ros-detectnet ros-humble-isaac-ros-triton ros-humble-isaac-ros-dnn-image-encoder \
+sudo apt-get install -y ros-humble-Isaac-ros-visual-slam \
+ros-humble-Isaac-ros-yolov8 ros-humble-Isaac-ros-tensor-rt ros-humble-Isaac-ros-dnn-image-encoder \
+ros-humble-Isaac-ros-detectnet ros-humble-Isaac-ros-triton ros-humble-Isaac-ros-dnn-image-encoder \
 ros-humble-isaac-ros-apriltag
 ```
 And then build the workspace:
