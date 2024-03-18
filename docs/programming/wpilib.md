@@ -1,0 +1,21 @@
+# Project Structure
+- [src/main/cpp/](https://github.com/Pixelators4014/2024/tree/main/src/main/cpp): The main C++ code for the robot.
+- [src/main/include/](https://github.com/Pixelators4014/2024/tree/main/src/main/include): The header files for the main C++ code.
+- [src/main/deploy/](https://github.com/Pixelators4014/2024/tree/main/src/main/deploy): Files that will get deployed to the roborio, namely containing pathplanner paths.
+- [src/test/cpp/](https://github.com/Pixelators4014/2024/tree/main/src/test/cpp): The test code for the robot.
+- [gradle/](https://github.com/Pixelators4014/2024/tree/main/gradle): The gradle wrapper and other gradle files.
+- [vendordeps/](https://github.com/Pixelators4014/2024/tree/main/vendordeps): Vendor dependencies, such as the WPIlib (should be added using the vscode `manage vendor libraries` command).
+- [build.gradle](https://github.com/Pixelators4014/2024/tree/main/build.gradle): The gradle build file. This is the file that tells gradle how to build the robot code.
+- [settings.gradle](https://github.com/Pixelators4014/2024/tree/main/settings.gradle): The gradle settings file. This file tells gradle what to build.
+- [gradlew](https://github.com/Pixelators4014/2024/tree/main/gradlew): The gradle wrapper. This is a script that will download gradle for you, so you don't have to install it yourself.
+- [gradlew.bat](https://github.com/Pixelators4014/2024/tree/main/gradlew.bat): The gradle wrapper for windows. This is a script that will download gradle for you, so you don't have to install it yourself.
+
+# Subsystem Structure
+- [/src/main/include/Constants.h](https://github.com/Pixelators4014/2024/tree/main/src/main/include/Constants.h): The constants file. This file contains all of the constants for the robot, such as motor ports, solenoid ports, and other constants.
+- [/src/main/include/Robot.h](https://github.com/Pixelators4014/2024/tree/main/src/main/include/Robot.h) and [/src/main/cpp/Robot.cpp](https://github.com/Pixelators4014/2024/tree/main/src/main/cpp/Robot.cpp): The robot class. This class contains the robot's subsystems and the robot's periodic functions.
+- [/src/main/include/RobotContainer.h](https://github.com/Pixelators4014/2024/tree/main/src/main/include/RobotContainer.h) and [/src/main/cpp/RobotContainer.cpp](https://github.com/Pixelators4014/2024/tree/main/src/main/cpp/RobotContainer.cpp): The robot container class. This class contains the robot's subsystems and the robot's commands.
+- [/src/main/include/subsystems/SwerveModule.h](https://github.com/Pixelators4014/2024/tree/main/src/main/include/subsystems/SwerveModule.h) and [/src/main/cpp/subsystems/SwerveModule.cpp](https://github.com/Pixelators4014/2024/tree/main/src/main/cpp/subsystems/SwerveModule.cpp): The swerve module class. This gives a higher level interface to getting and setting the swerve modules' positions and angles.
+- [/src/main/include/subsystems/Drivetrain.h](https://github.com/Pixelators4014/2024/tree/main/src/main/include/subsystems/Drivetrain.h) and [/src/main/cpp/subsystems/Drivetrain.cpp](https://github.com/Pixelators4014/2024/tree/main/src/main/cpp/subsystems/Drivetrain.cpp): The drivetrain class. This class contains the robot's drivetrain and the robot's swerve modules, as well as the robot's odometry.
+- [/src/main/include/subsystems/Grabber.h](https://github.com/Pixelators4014/2024/tree/main/src/main/include/subsystems/Grabber.h) and [/src/main/cpp/subsystems/Grabber.cpp](https://github.com/Pixelators4014/2024/tree/main/src/main/cpp/subsystems/Grabber.cpp): The grabber class. This class contains the robot's grabber and the robot's grabber motor.
+- [/src/main/include/subsystems/Arm.h](https://github.com/Pixelators4014/2024/tree/main/src/main/include/subsystems/Arm.h) and [/src/main/cpp/subsystems/Arm.cpp](https://github.com/Pixelators4014/2024/tree/main/src/main/cpp/subsystems/Arm.cpp): The arm class. This class contains the robot's arm and the robot's arm motor.
+- [/src/main/include/subsystems/Orin.h](https://github.com/Pixelators4014/2024/tree/main/src/main/include/subsystems/Orin.h) and [/src/main/cpp/subsystems/Orin.cpp](https://github.com/Pixelators4014/2024/tree/main/src/main/cpp/subsystems/Orin.cpp): The Orin class. It interfaces with the Orin Nano coprocessor to get the robot's position and orientation, as well as object detection data.
