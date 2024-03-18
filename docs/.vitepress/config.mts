@@ -41,5 +41,9 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/Pixelators4014/docs" },
     ],
+
+    search: {
+      provider: 'local'
+    }
   },
 });
