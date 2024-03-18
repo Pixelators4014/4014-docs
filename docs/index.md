@@ -13,10 +13,10 @@ hero:
       link: /fabrication/overview
     - theme: alt
       text: Programming
-      link: /fabrication/overview
+      link: /programming/overview
     - theme: alt
       text: Electrical
-      link: /electical/overview
+      link: /electrical/overview
     - theme: alt
       text: Outreach
       link: /outreach/overview
