@@ -26,6 +26,7 @@ export default defineConfig({
           { text: "Setup", link: "/programming/setup" },
           { text: "WPILib", link: "/programming/wpilib" },
           { text: "Orin", link: "/programming/orin" },
+          { text: "Useful Tools", link: "/programming/useful-tools" },
         ],
       },
       {
