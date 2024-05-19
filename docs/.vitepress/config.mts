@@ -17,7 +17,13 @@ export default defineConfig({
     sidebar: [
       {
         text: "Fabrication",
-        items: [{ text: "Overview", link: "/fabrication/overview" }],
+        items: [
+          { text: "Overview", link: "/fabrication/overview" },
+          { text: "Milling", link: "/fabrication/milling" },
+          { text: "Drills", link: "/fabrication/drills" },
+          { text: "Cutting Fluids", link: "/fabrication/cutting_fluids" },
+          { text: "Fits", link: "/fabrication/fits" },
+        ],
       },
       {
         text: "Programming",
@@ -44,10 +50,13 @@ export default defineConfig({
     ],
 
     search: {
-      provider: 'local',
+      provider: "local",
       options: {
         detailedView: true,
-      }
-    }
+      },
+    },
+  },
+  markdown: {
+    math: true,
   },
 });
