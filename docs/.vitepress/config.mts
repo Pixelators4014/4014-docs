@@ -20,9 +20,11 @@ export default defineConfig({
         text: "Fabrication",
         items: [
           { text: "Overview", link: "/fabrication/overview" },
-          { text: "Milling", link: "/fabrication/milling" },
-          { text: "Drills", link: "/fabrication/drills" },
-          { text: "Cutting Fluids", link: "/fabrication/cutting_fluids" },
+          { text: "Drill Size", link: "/fabrication/drill_size" },
+          { text: "Hole Size", link: "/fabrication/hole_size" },
+          { text: "Screw Size", link: "/fabrication/screw_size" },
+          { text: "Drilling Fluid", link: "/fabrication/drilling_fluid" },
+          { text: "Milling Fluid", link: "/fabrication/milling_fluid" },
           { text: "Fits", link: "/fabrication/fits" },
         ],
       },
@@ -61,7 +63,7 @@ export default defineConfig({
       },
     },
   },
-  markdown: {
-    math: true,
-  },
+  // markdown: {
+  //   math: true,
+  // },
 });
