@@ -12,6 +12,9 @@ hero:
       text: Fabrication
       link: /fabrication/overview
     - theme: alt
+      text: Design
+      link: /design/overview
+    - theme: alt
       text: Programming
       link: /programming/overview
     - theme: alt

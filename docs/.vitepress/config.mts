@@ -9,6 +9,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Fabrication", link: "/fabrication/overview" },
+      { text: "Design", link: "/design/overview" },
       { text: "Programming", link: "/programming/overview" },
       { text: "Electrical", link: "/electrical/overview" },
       { text: "Outreach", link: "/outreach/overview" },
@@ -24,6 +25,10 @@ export default defineConfig({
           { text: "Cutting Fluids", link: "/fabrication/cutting_fluids" },
           { text: "Fits", link: "/fabrication/fits" },
         ],
+      },
+      {
+        text: "Design",
+        items: [{ text: "Overview", link: "/design/overview" }],
       },
       {
         text: "Programming",
