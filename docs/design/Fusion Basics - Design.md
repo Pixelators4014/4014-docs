@@ -24,7 +24,7 @@ If you click the drop down, you can see more options and shortcuts like creating
 
 The create tab here helps you create lines, rectangles, circles, arcs, splines, whatever your heart imagines!! <br>
 The modify tab is pretty similar to the modify category below, except with "trim" which deletes portions of sketch that you created. <br>
-Constraints here help keep your sketches in shape, especially when you are changing parameters. This makes it so that sketches change as you want. If the line turns black, that means it is fully constrained and will not change. More info can be found on (Fusion's documentation)[https://help.autodesk.com/view/fusion360/ENU/?guid=SKT-CONSTRAINTS]. <br>
+Constraints here help keep your sketches in shape, especially when you are changing parameters. This makes it so that sketches change as you want. If the line turns black, that means it is fully constrained and will not change. More info can be found on [Fusion's documentation](https://help.autodesk.com/view/fusion360/ENU/?guid=SKT-CONSTRAINTS). <br>
 Everything else is de same i think. Click Finish Sketch at the top right to finish the sketch. <br>
 
 ## Modify Category - GREEN
@@ -57,5 +57,5 @@ The thing at the bottom of the screen is called the timeline. It records everyth
 ## Conclusion
 This document was created by Han Lu, CO2027 Stanford OHS. <br>
 DM me on Discord(han_0427), Pronto (Han Lu), or email(han0427@ohs.stanford.edu) if you have any questions. <br>
-This document was created for FRC Team 4014, The Pixelators for internal use. Feel free to use this even though you are not part of our team, but please consider joining our (Discord Server)[https://discord.gg/VbhaTrXZ9Q]. <br>
+This document was created for FRC Team 4014, The Pixelators for internal use. Feel free to use this even though you are not part of our team, but please consider joining our [Discord Server](https://discord.gg/VbhaTrXZ9Q). <br>
 Y'all will slay fr
