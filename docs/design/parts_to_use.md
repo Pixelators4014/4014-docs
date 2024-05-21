@@ -6,10 +6,10 @@ It is important to note here that any materials can be used as long as it is und
 ## Normal Stock
 
 The primary material we use in FRC is metal (i love metal fr) <br>
-There are two types of metal that we usually use: 
-    1. Metal hollow bars - tubes that come in like 1x1 in, 2x1 in (the one we use most often). Typically have shell thickness of 1/8".
-    2. Metal Plates - flat piece of metal that have different thicknesses, most common being 1/8" and 1/4". Useful for stuff ig (like bellypan!)
-    3. Shafts - hex or D shafts, used to hold turning things ig
+There are three types of metal that we usually use. 
+1. Metal hollow bars - tubes that come in like 1x1 in, 2x1 in (the one we use most often). Typically have shell thickness of 1/8".
+2. Metal Plates - flat piece of metal that have different thicknesses, most common being 1/8" and 1/4". Useful for stuff ig (like bellypan!)
+3. Shafts - hex or D shafts, used to hold turning things ig
 We usually source them from [Industrial Metal Supply](https://www.industrialmetalsupply.com/products/metals/aluminum "metal place") <br>
 It is important to keep in mind that we will be fabricating these things 
 
