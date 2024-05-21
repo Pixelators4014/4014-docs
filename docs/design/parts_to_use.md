@@ -9,9 +9,10 @@ The primary material we use in FRC is metal (i love metal fr) <br>
 There are three types of metal that we usually use. 
 1. Metal hollow bars - tubes that come in like 1x1 in, 2x1 in (the one we use most often). Typically have shell thickness of 1/8".
 2. Metal Plates - flat piece of metal that have different thicknesses, most common being 1/8" and 1/4". Useful for stuff ig (like bellypan!)
-3. Shafts - hex or D shafts, used to hold turning things ig
+3. Shafts - hex or D shafts, used to hold turning things ig. We get normal shafts from [West Coast Products](https://wcproducts.com/products/shaft-stock) and threaded ones from [RevRobotics](https://www.revrobotics.com/.5in-Rounded-Hex-Shafts/). 
 We usually source them from [Industrial Metal Supply](https://www.industrialmetalsupply.com/products/metals/aluminum "metal place") <br>
-It is important to keep in mind that we will be fabricating these things 
+It is important to keep in mind that we will be fabricating these things on a mill, so think abt how a mill would mill this out when fabbing. Contact design or fab lead if u have qusetion
+> Protip: You can use the accessibility inspection feature in Fusion Design (in the top right corner dropdown) and click on the face you are milling from to see if all your feature can be milled. 
 
 ## Highly Custom parts
 
