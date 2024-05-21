@@ -33,6 +33,7 @@ export default defineConfig({
         items: [
           { text: "Overview", link: "/design/overview" },
           { text: "Fusion Basics - Design", link: "/design/fusion_basics" },
+          { text: "Parts We Use", link: "/design/parts_to_use" },
         ],
       },
       {
