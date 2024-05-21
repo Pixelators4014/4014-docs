@@ -26,6 +26,7 @@ export default defineConfig({
           { text: "Drilling Fluid", link: "/fabrication/drilling_fluid" },
           { text: "Milling Fluid", link: "/fabrication/milling_fluid" },
           { text: "Fits", link: "/fabrication/fits" },
+          { text: "Workholding", link: "/fabrication/workholding" },
         ],
       },
       {
