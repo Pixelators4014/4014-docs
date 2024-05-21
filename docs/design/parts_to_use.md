@@ -34,7 +34,7 @@ We can get our parts from anywhere, but here are some places to start.
 1. [West Coast Products](https://wcproducts.com) - good for belts, chains, sprocket n stuff
 2. [Andymark](https://www.andymark.com) - cool place for intake wheels, sprockets? idk
 3. [RevRobotics](https://www.revrobotics.com/ion-system/) - robotics site idk ive never used it but i heard its useful
-4. [McMasterCarr](https://www.mcmaster.com) - godly site for screws, nuts, pins, etc. model all the bolts and nuts if you are chadly enough. 
+4. [McMasterCarr](https://www.mcmaster.com) - godly site for screws, nuts, pins, etc. model all the bolts and nuts if you are chadly enough. Very useful, it has insert function in Fusion, which is in the top right dropdown. Beware of the McMasterTax though. 
 
 ## Closing Thoughts
 
