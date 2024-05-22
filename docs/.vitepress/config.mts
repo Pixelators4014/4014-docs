@@ -35,6 +35,7 @@ export default defineConfig({
           { text: "Overview", link: "/design/overview" },
           { text: "Fusion Basics - Design", link: "/design/fusion_basics" },
           { text: "Parts We Use", link: "/design/parts_to_use" },
+          { text: "Useful CAD Models", link: "/design/ez_cad_things"},
         ],
       },
       {
