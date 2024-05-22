@@ -26,7 +26,7 @@ export default defineConfig({
           { text: "Drilling Fluid", link: "/fabrication/drilling_fluid" },
           { text: "Milling Fluid", link: "/fabrication/milling_fluid" },
           { text: "Fits", link: "/fabrication/fits" },
-          { text: "Workholding", link: "/fabrication/workhold" },
+          { text: "Workholding", link: "/fabrication/workholding" },
         ],
       },
       {
@@ -35,7 +35,7 @@ export default defineConfig({
           { text: "Overview", link: "/design/overview" },
           { text: "Fusion Basics - Design", link: "/design/fusion_basics" },
           { text: "Parts We Use", link: "/design/parts_to_use" },
-          { text: "Useful CAD Models", link: "/design/ez_cad_things"},
+          { text: "Useful CAD Models", link: "/design/ez_cad_things" },
         ],
       },
       {
