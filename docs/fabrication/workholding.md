@@ -40,7 +40,8 @@ Industrial routers, like the Laguna routers, tend to have vacuum tables. They ca
 
 ## Screws
 
-Screws are great on wooden spoil boards. They can reinforce a part on a vacuum spoil board or be used as the sole work holding on a nonvacuum spoil board. To use screws, just take existing holes from drilling operations, or make new specific work holding holes and use a wood screw through the aluminum into the spoil board.
+Screws are great on wooden spoil boards. They can reinforce a part on a vacuum spoil board or be used as the sole work holding on a nonvacuum spoil board. To use screws, just take existing holes from drilling operations, or make new specific work holding holes and use a wood screw through the aluminum into the spoil board. Here is an example with a wood part screwed into a black mdf spoil board:
+![screw](/fabrication/screw.jpg)
 
 ## Super Glue and Tape
 
