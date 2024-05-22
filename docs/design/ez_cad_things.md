@@ -34,6 +34,9 @@ The floof part is not required to model, so I will teech how to make wood part.
 ![buttjoint](/docs/design/pics/butt%20joint.png)
 4. Extrude it according to the year's bumper requirements found in the game manual. 
 
+Here is an example of the bumper. <br>
+    ![bumperexample](/docs/design/pics/bumperexample.png)
+
 Yay we can bump people fr!!!
 
 # Conclusion
