@@ -56,3 +56,8 @@ Toe clamps are some of the most versatile work-holding solutions. They can give 
 ![small_clamp](/fabrication/small_clamp.jpg)
 They also have a much larger version for purely vertical force. This can be useful for holding down a piece of plate or spoil board directly to a mill's table:
 ![big_clamp](/fabrication/big_clamp.jpg)
+
+## Binder clips?
+
+YES
+![clips](/fabrication/clips.webp)
