@@ -1,4 +1,5 @@
-# Cutting Fluids Recommended for Turning and Milling Operations
+# Milling Fluid
+## Cutting Fluids Recommended for Turning and Milling Operations
 
 | Material to be Cut                | Turning                                              | Milling                           |
 | --------------------------------- | ---------------------------------------------------- | --------------------------------- |

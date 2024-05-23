@@ -1,4 +1,5 @@
-# Tap Drills and Clearance Drills for Machine Screws with American National Thread Form
+# Hole Size
+## Tap Drills and Clearance Drills for Machine Screws with American National Thread Form
 
 <table>
   <tr>
@@ -200,6 +201,7 @@
 </table>
 <sup>a</sup> These screws are not in the American Standard but are from the former A.S.M.E. Standard.
 
+## British Standard Metric Bolt and Screw Clearance Holes BS 4186: 1967
 | Nominal <br> Thread <br> Diameter | Close <br> Fit <br> Series | Medium <br> Fit <br> Series | Free <br> Fit <br> Series |
 | :---: | :---: | :---: | :---: |
 | 1.6 | 1.7 | 1.8 | 2.0 |
