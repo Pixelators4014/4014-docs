@@ -8,6 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
+      { text: "4014 Dictionary", link: "/dictionary" },
       { text: "Fabrication", link: "/fabrication/overview" },
       { text: "Design", link: "/design/overview" },
       { text: "Programming", link: "/programming/overview" },
@@ -16,6 +17,10 @@ export default defineConfig({
     ],
 
     sidebar: [
+      {
+        text: "Dictionary",
+        items: [{text: "Dictionary", link: "/dictionary"}]
+      },
       {
         text: "Fabrication",
         items: [

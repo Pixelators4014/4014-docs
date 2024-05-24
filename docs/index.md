@@ -23,6 +23,9 @@ hero:
     - theme: alt
       text: Outreach
       link: /outreach/overview
+    - theme: alt
+      text: Dictionary
+      link: /dictionary
   image:
     src: /logo.png
     alt: Logo
