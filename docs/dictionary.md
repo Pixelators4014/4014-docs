@@ -23,7 +23,7 @@ CoreXY - a type of 3D printer that has a head moving in the x-y plane and a bed 
 
 ## D
 
-Dictator - Alistair Bernard Sands Keiller, FRC Team 4014 Pixelators Captain (2022-2024), Director of Everything, One-Man Programming Team, One-Man Electronics Team, ~Just One Man~ Now Happily Married!🥳, Old Man, yuh <br>
+Dictator - Alistair Bernard Sands Keiller, FRC Team 4014 Pixelators Captain (2022-2024), Director of Everything, One-Man Programming Team, One-Man Electronics Team, ~~Just One Man~~ Now Happily Married!🥳, Old Man, yuh <br>
 District - a FRC competition format where you go to district meets to qualify for district championships, with a set number qualifying for worlds.
 
 ## E
