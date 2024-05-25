@@ -23,7 +23,8 @@ CoreXY - a type of 3D printer that has a head moving in the x-y plane and a bed 
 
 ## D
 
-District - a FRC competition format where you go to district meets to qualify for district championships, with a set number qualifying for worlds. 
+Dictator - Alistair Bernard Sands Keiller, FRC Team 4014 (Pixelators) Captain (2022-2024), Nerd, Director of Everything, Gigachad, Him, Programmer guy <br>
+District - a FRC competition format where you go to district meets to qualify for district championships, with a set number qualifying for worlds. <br>
 
 ## E
 
