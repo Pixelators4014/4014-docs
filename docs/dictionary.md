@@ -9,7 +9,8 @@ i make dis cuz i was really confuse what "tabs" in cam are and what compliant wh
 
 ## A
 
-ATM - Alistair's Torture Machine, common robot name. 
+ATM - Alistair's Torture Machine, common robot name. <br>
+AVR - Aerospace Valley Regional or Arizona Valley Regional. <br>
 
 ## B
 
@@ -53,6 +54,8 @@ FLL - First Lego League, for elementary schoolers <br>
 
 ## P
 
+Post - post processor to convert cam to .gcd to be put on different machines. Download these from the Autodesk Fusion Post library and right click setup and click post to use. <br>
+
 ## Q
 
 ## R
@@ -62,6 +65,8 @@ FLL - First Lego League, for elementary schoolers <br>
 sleeby - overly sleepy (like alistair)
 
 ## T
+
+Tabs little things that are not cut during a countour procedure so the center doesn't become a projectile. Removed after milling. Found under Manufacture -> 2D Contour -> Geometry -> Tabs <br>
 
 ## U
 
