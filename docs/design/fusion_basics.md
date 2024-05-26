@@ -4,7 +4,7 @@ This document will overview the basic functions and buttons that can be used in 
 
 Below is a picture of what you will see initially in the Design Workspace. Note that workspaces can be changed by clicking the button near the top left that says "Design".
 
-![picture of design workspace](design/DesignWorkspace1.jpg)
+![picture of design workspace](design/DesignWorkspace1.avif)
 
 Starting with the easiest, there are multiple "tabs" within this workspace. To switch between tabs, click the different tabs (boxed in red), such as "Solid", "Surface", etc. <br>
 Ima be honest with you the only two I've used are "Solid" and "Mesh". I will outline how to use the Solid tab later, but Mesh is basically only used to import STL's. <br>
@@ -20,7 +20,7 @@ If you click the drop down, you can see more options and shortcuts like creating
 
 ### Sketch Workspace
 
-![picture of sketch workspace](design/DesignWorkspaceSketch.png)
+![picture of sketch workspace](design/DesignWorkspaceSketch.avif)
 
 The create tab here helps you create lines, rectangles, circles, arcs, splines, whatever your heart imagines!! <br>
 The modify tab is pretty similar to the modify category below, except with "trim" which deletes portions of sketch that you created. <br>

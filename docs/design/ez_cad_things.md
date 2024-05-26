@@ -15,10 +15,10 @@ From "Parts We Use", you learned that we usually use 2in x 1in metal stock. Here
 For structural bars where you need screw space, you can make a standard grid by doing the following:
 1. Create a sketch on one of the large faces on the bars u created above
 2. Create a center-diameter circle with the center 0.5 inches from side (use dimension to do this), with diamter of 0.196 inch (a.k.a. #10 screw) as pictured below.
-![pictureofhole](design/hole.png)
+![pictureofhole](design/hole.avif)
 3. Create a rectangular pattern (under the create drop-down) and make it go 1 inch less than your bar length in one axis and and same for the other one. (e.g. if your sketch planed face is 3in x 2in, you would enter 2in for one and 1in for the other rectangular pattern)
 4. For the quantity, keep changing it until the centers are 0.5in apart (they should align with the slightly thicker grid lines if u cahnge units to inches). See picture below.
-![anotherpictureofhole](design/hole2.png)
+![anotherpictureofhole](design/hole2.avif)
 5. Now extrude these circles so that it goes through to the other side (u can just click the other side and it will snap). Repeat this for all the other sides u want to have holes on. This is useful cuz most compoennts are designed with these holes in mind.
 
 yay bar done!!!
@@ -31,11 +31,11 @@ The floof part is not required to model, so I will teech how to make wood part.
 1. The bumper is supposed to go around the bot, so project the frame perimeter of the robot.
 2. Then, offset it by 0.75 inch (wood is usually 3/4'' thick, give or take).
 3. Divide it so that each piece of the wood is joined by "butt joint", see picture below. We make it like this to increase structural integrity and to make it easier to fab, as every piece of wood would be the same length.
-![buttjoint](design/butt%20joint.png)
+![buttjoint](design/butt%20joint.avif)
 4. Extrude it according to the year's bumper requirements found in the game manual.
 
 Here is an example of the bumper. <br>
-    ![bumperexample](design/bumperexample.png)
+    ![bumperexample](design/bumperexample.avif)
 
 Yay we can bump people fr!!!
 
