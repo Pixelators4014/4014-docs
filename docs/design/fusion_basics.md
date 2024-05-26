@@ -1,10 +1,10 @@
 # Fusion Basics - Design
 
-This document will overview the basic functions and buttons that can be used in the "Design" workspace in Fusion 360. 
+This document will overview the basic functions and buttons that can be used in the "Design" workspace in Fusion 360.
 
-Below is a picture of what you will see initially in the Design Workspace. Note that workspaces can be changed by clicking the button near the top left that says "Design". 
+Below is a picture of what you will see initially in the Design Workspace. Note that workspaces can be changed by clicking the button near the top left that says "Design".
 
-![picture of design workspace](/docs/design/pics/DesignWorkspace1.jpg)
+![picture of design workspace](design/DesignWorkspace1.jpg)
 
 Starting with the easiest, there are multiple "tabs" within this workspace. To switch between tabs, click the different tabs (boxed in red), such as "Solid", "Surface", etc. <br>
 Ima be honest with you the only two I've used are "Solid" and "Mesh". I will outline how to use the Solid tab later, but Mesh is basically only used to import STL's. <br>
@@ -20,7 +20,7 @@ If you click the drop down, you can see more options and shortcuts like creating
 
 ### Sketch Workspace
 
-![picture of sketch workspace](/docs/design/pics/DesignWorkspaceSketch.png)
+![picture of sketch workspace](design/DesignWorkspaceSketch.png)
 
 The create tab here helps you create lines, rectangles, circles, arcs, splines, whatever your heart imagines!! <br>
 The modify tab is pretty similar to the modify category below, except with "trim" which deletes portions of sketch that you created. <br>
@@ -35,8 +35,8 @@ The one to the right of that is fillet, which makes a sharp point curvy so its l
 The one to the right of that is shell, which makes the inside of a body hollow. <br>
 The one to the right of that is split body, which splits a body in multiple pieces using planes. <br>
 The last one is move, which moves things. <br>
-There are many others found inside the drop down, but some notable ones are Appearance and Change Parameter, which change how the body looks and changes the parameters. 
-> Protip: Parameters are useful variables that are useful if you are not sure of a dimension. You can move on with your design and change the parameters later. These parameters can take the place of most values. 
+There are many others found inside the drop down, but some notable ones are Appearance and Change Parameter, which change how the body looks and changes the parameters.
+> Protip: Parameters are useful variables that are useful if you are not sure of a dimension. You can move on with your design and change the parameters later. These parameters can take the place of most values.
 
 ## Assemble Category - GOLD
 
@@ -44,7 +44,7 @@ The Assemble Category deals with multiple components. <br>
 Each different thing in the Browser at the left of the workspace is considered a different component. These components may be imported from another design or created within this design. The one with the chain looking thing are "linked", which means they will update when another external component is modified. <br>
 The most useful thing in this category is Joint, which is the second from the left, which can define the relationships between components, such as securing them to one another or defining a revolution along an axis. <br>
 
-## Construct and Inspect Category - Magenta?? 
+## Construct and Inspect Category - Magenta??
 
 The Construct and Inspect categories aide by providing miscellaneous tools to help with designing. <br>
 The construct category provides numerous different planes, axes, and points that can help with all the above categories. <br>
@@ -52,7 +52,7 @@ The inspect category provides tools to help inspect the design, such as measure,
 
 ## Timeline - Burple
 
-The thing at the bottom of the screen is called the timeline. It records everything you do, so that you can go back and change it if you desire. This is realyl really reallyelalrleyllrealyl really really helpful. 
+The thing at the bottom of the screen is called the timeline. It records everything you do, so that you can go back and change it if you desire. This is realyl really reallyelalrleyllrealyl really really helpful.
 
 ## Conclusion
 This document was created by Han Lu, CO2027 Stanford OHS. <br>
