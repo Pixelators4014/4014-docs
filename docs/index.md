@@ -27,7 +27,7 @@ hero:
       text: Dictionary
       link: /dictionary
   image:
-    src: /logo.avif
+    src: /logo.png
     alt: Logo
 ---
 
