@@ -1,6 +1,6 @@
 # Orin Nano
 
-The [Orin Nano](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/) is a coprocessor that we use to get the robot's position and orientation, as well as object detection data. It is connected to the robot's main computer through a Networktable. To develop on the Orin, you will need to ssh into it. There is an ngrok service (`/usr/local/bin/ngrok tcp 22`) and serveo service (`/usr/bin/ssh -R Alistairs-Autonomous-Astro-Artisan:22:localhost:22 serveo.net`) running on startup, which exposes its ssh to the internet with a TCP tunnel.
+The [Orin Nano](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/) is a coprocessor that we use to get the robot's position and orientation, as well as object detection data. It is connected to the robot's main computer through a custom UDP protocol. To develop on the Orin, you will need to ssh into it. There is an ngrok service (`/usr/local/bin/ngrok tcp 22`) and serveo service (`/usr/bin/ssh -R Alistairs-Autonomous-Astro-Artisan:22:localhost:22 serveo.net`) running on startup, which exposes its ssh to the internet with a TCP tunnel.
 
 ## SSH Into Orin
 
@@ -14,62 +14,10 @@ ssh -p NGROK_PORT USER@NGROK_IP
 ssh -J serveo.net USER@SERVEO_NICKNAME
 ```
 
-## Installing Isaac ROS
+## Setting up an Orin
 
-+ Restart Docker
-```bash
-sudo systemctl daemon-reload && sudo systemctl restart docker
-```
-+ Install Git LFS
-```bash
-sudo apt-get install git-lfs
-```
-```bash
-git lfs install --skip-repo
-```
-+ Create a ROS 2 workspace for experimenting with Isaac ROS:
-```bash
-mkdir -p  ~/workspaces/isaac_ros-dev/src
-echo "export ISAAC_ROS_WS=${HOME}/workspaces/isaac_ros-dev/" >> ~/.bashrc
-source ~/.bashrc
-```
-+ Clone repos
-```bash
-cd ${ISAAC_ROS_WS}/src
-```
-```bash
-git clone https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common.git && \
-git clone https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam.git  && \
-git clone https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_object_detection.git  && \
-git clone https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_apriltag.git  && \
-git clone https://github.com/Pixelators4014/jetson-localization.git  && \
-git clone https://github.com/IntelRealSense/realsense-ros
-```
+If the Orin is brand new, or you wish to perform a factory reset, find a computer running Ubuntu and install the [Nvdia SDK Manager](https://developer.nvidia.com/sdk-manager). Then short the FC REC and GND pins (jumper wires are preferable, but I've used an alligator clip) before plugging the Orin nano in to the power. Next connect the computer and the Orin Nano by USB. The SDK Manager should install everything needed (be sure to install CUDA and the rest of the software). When flashing, be sure to flash to the SSD instead of the microSD.
 
-## Running Isaac ROS
+After the flash is done disconnect the jumper cables and unplug the orin and reboot it. After that go through setup.
 
-Once installed, you must open the docker container with the following command:
-```bash
-cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
-  ./scripts/run_dev.sh ${ISAAC_ROS_WS}
-```
-Then you need to install dependencies:
-```bash
-sudo apt-get install -y ros-humble-Isaac-ros-visual-slam \
-ros-humble-Isaac-ros-yolov8 ros-humble-Isaac-ros-tensor-rt ros-humble-Isaac-ros-dnn-image-encoder \
-ros-humble-Isaac-ros-detectnet ros-humble-Isaac-ros-triton ros-humble-Isaac-ros-dnn-image-encoder \
-ros-humble-isaac-ros-apriltag
-```
-And then build the workspace:
-```bash
-cd /workspaces/isaac_ros-dev && \
-colcon build --symlink-install && \
-source install/setup.bash
-```
-
-## Running Code
-
-Now you can run the run all node:
-```bash
-ros2 launch comms_node run_all.launch.py
-```
+Then [https://github.com/Pixelators4014/pixelization_rs/blob/master/README.md#full-setup](https://github.com/Pixelators4014/pixelization_rs/blob/master/README.md#full-setup) should get you up and running after that.
