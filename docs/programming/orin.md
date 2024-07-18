@@ -16,8 +16,12 @@ ssh -J serveo.net USER@SERVEO_NICKNAME
 
 ## Setting up an Orin
 
+Ensure the Orin Nano has a SSD installed before proceeding.
+
 If the Orin is brand new, or you wish to perform a factory reset, find a computer running Ubuntu and install the [Nvdia SDK Manager](https://developer.nvidia.com/sdk-manager). Then short the FC REC and GND pins (jumper wires are preferable, but I've used an alligator clip) before plugging the Orin nano in to the power. Next connect the computer and the Orin Nano by USB. The SDK Manager should install everything needed (be sure to install CUDA and the rest of the software). When flashing, be sure to flash to the SSD instead of the microSD.
 
 After the flash is done disconnect the jumper cables and unplug the orin and reboot it. After that go through setup.
 
 Then [https://github.com/Pixelators4014/pixelization_rs/blob/master/README.md#full-setup](https://github.com/Pixelators4014/pixelization_rs/blob/master/README.md#full-setup) should get you up and running after that.
+
+The full documentation for this is at [https://github.com/Pixelators4014/pixelization_rs/blob/master/README.md](https://github.com/Pixelators4014/pixelization_rs/blob/master/README.md).
