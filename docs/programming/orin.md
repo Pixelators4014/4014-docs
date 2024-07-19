@@ -1,18 +1,21 @@
 # Orin Nano
 
-The [Orin Nano](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/) is a coprocessor that we use to get the robot's position and orientation, as well as object detection data. It is connected to the robot's main computer through a custom UDP protocol. To develop on the Orin, you will need to ssh into it. There is an ngrok service (`/usr/local/bin/ngrok tcp 22`) and serveo service (`/usr/bin/ssh -R Alistairs-Autonomous-Astro-Artisan:22:localhost:22 serveo.net`) running on startup, which exposes its ssh to the internet with a TCP tunnel.
+The [Orin Nano](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/) is a coprocessor that we use to get the robot's position and orientation, as well as object detection data.
+It is connected to the robot's main computer through a custom UDP protocol. To develop on the Orin, you will need to ssh into it.
+SSH, as of July of 2024, is offline due to the fact it is the off-season. 
 
 ## SSH Into Orin
 
-You must connect to them with the following commands:
-- Ngrok
-```bash
-ssh -p NGROK_PORT USER@NGROK_IP
+### How to setup
+Go to https://whatismyip.com/ and get the public IPv4 or IPv6 address (IPv4 is shorter and preferable).
+Send it to #programming or similar on discord, with an username and password (the unix user).
+
+Then people can ssh with this:
+
+```shell
+    ssh [username]@[ip]
 ```
-- Serveo
-```bash
-ssh -J serveo.net USER@SERVEO_NICKNAME
-```
+and enter the password.
 
 ## Setting up an Orin
 
