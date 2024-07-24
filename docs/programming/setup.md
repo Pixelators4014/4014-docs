@@ -4,6 +4,12 @@
 
 We use GitHub to host our code and manage our project. You must sign up for a GitHub account to contribute to the project. Here is [the signup link](https://github.com/signup?user_email=&source=form-home-signup).
 
+## Setup brew (macOS only)
+
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
 ## Install Git
 
 - Windows
@@ -11,10 +17,9 @@ We use GitHub to host our code and manage our project. You must sign up for a Gi
 Install [Git For Windows](https://git-scm.com/download/win)
 
 
-- Macos (Through Brew)
+- MacOS (Through Brew)
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install git
 ```
 
