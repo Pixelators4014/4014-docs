@@ -4,4 +4,4 @@ This is the overview of the programming section.
 + [WPIlib](/programming/wpilib)
 + [Orin](/programming/orin)
 + [Useful Tools](/programming/useful-tools)
-- [Snippets](/programming/snippets)
++ [Snippets](/programming/snippets)
